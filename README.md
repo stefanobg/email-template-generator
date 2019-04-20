@@ -20,9 +20,10 @@ Through a study case at Equals, I've built this tool to help the entire company 
 - [Material Design Icons](http://materialdesignicons.com/)
 
 ## Features
+- Fully customizable HTML template
 - Edit Header and Title image
-- CTA Button
-- Your own text
+- CTA Button with personalized link
+- Your own text with images
 - Copy to clipboard
 - Download HTML file
 - Define regards
