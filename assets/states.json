@@ -1,9 +1,8 @@
 {
   "header": {
-    "Imagem": "https://img.com",
-    "Imagem2": "https://img.com"
+    "Default": "https://github.com/stefanobg/email-template-generator/blob/master/assets/header.jpg?raw=true"
   },
   "title": {
-    "Imagem": "url"
+    "Default": "https://github.com/stefanobg/email-template-generator/blob/master/assets/title.jpg?raw=true"
   }
 }
