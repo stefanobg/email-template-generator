@@ -26,7 +26,6 @@ $(document).ready(function () {
 
   // Toggle menu
   $("#menu-toggle").click(function (e) {
-    gtag('event', 'click', { 'event_category': 'Mostrar/Esconder Menu' }); // analytics
     e.preventDefault();
     $("#wrapper").toggleClass("toggled");
     if ($("#wrapper").hasClass("toggled")) {
@@ -48,7 +47,7 @@ $(document).ready(function () {
   ];
 
   var quill = new Quill('#editor', {
-    placeholder: 'Escreva sua mensagem aqui...',
+    placeholder: 'Write your message here...',
     modules: {
       toolbar: toolbarOptions
     },
@@ -72,19 +71,16 @@ $(document).ready(function () {
 
   // Change image header
   $('#header').on('change', function () {
-    gtag('event', 'click', { 'event_category': 'Alteração de Cabeçalho' }); // analytics
     $("#frameHTML").contents().find('#template-img-header').attr("src", this.value);
   });
 
   // Change image title
   $('#title').on('change', function () {
-    gtag('event', 'click', { 'event_category': 'Alteração de Título' }); // analytics
     $("#frameHTML").contents().find('#template-img-title').attr("src", this.value);
   });
 
   // Show/Hide Button
   $("#action-button").click(function (e) {
-    gtag('event', 'click', { 'event_category': 'Mostrar/Esconder Call-To-Action' }); // analytics
     if ($(this).is(':checked')) {
       $("#frameHTML").contents().find('#template-button').fadeIn();
       $('#button-info').fadeIn();
@@ -117,7 +113,7 @@ $(document).ready(function () {
     if (this.value)
       $("#frameHTML").contents().find('#template-regards').html('<br/><br/>' + this.value);
     else
-      $("#frameHTML").contents().find('#template-regards').html('<br/><br/>Abraços, Equipe Equals!');
+      $("#frameHTML").contents().find('#template-regards').html('<br/><br/>Regards, Stéfano Girardelli ❤');
   })
 
   // Export file HTML
@@ -133,21 +129,17 @@ $(document).ready(function () {
 
   // Download button
   $('#download-button').click(function () {
-    gtag('event', 'click', { 'event_category': 'Download Solicitado' }); // analytics
-    var filename = prompt("Digite o nome desejado para salvar seu arquivo:", "");
+    var filename = prompt("Write down the name you want to save your file:", "");
     if (filename != null) {
       downloadInnerHTML(filename + '.html', 'html', 'text/html');
-      $.bootstrapGrowl("O arquivo HTML do seu e-mail foi baixado com sucesso!", { type: 'success', width: 350 });
-      gtag('event', 'click', { 'event_category': 'Download Realizado' }); // analytics
+      $.bootstrapGrowl("Your HTML file was downloaded with success!", { type: 'success', width: 350 });
     } else {
-      $.bootstrapGrowl("Você precisa definir o nome do seu arquivo para salvar.", { type: 'danger', width: 350 });
-      gtag('event', 'click', { 'event_category': 'Download Cancelado' }); // analytics
+      $.bootstrapGrowl("Please, choose a filename to save", { type: 'danger', width: 350 });
     }
   });
 
   // Copy to clipboard button
   $('#clipboard-button').click(function () {
-    gtag('event', 'click', { 'event_category': 'Copiar HTML' }); // analytics
     $('#frameHTML').contents().find('#template-text p').css('margin-top', '2px');
     var elHtml = '<!DOCTYPE html>' + document.getElementById('frameHTML').contentWindow.document.getElementsByTagName('html')[0].outerHTML;
     var $temp = $("<input>");
@@ -155,7 +147,7 @@ $(document).ready(function () {
     $temp.val(elHtml).select();
     document.execCommand("copy");
     $temp.remove();
-    $.bootstrapGrowl("Código HTML copiado com sucesso!", { type: 'success', width: 350 });
+    $.bootstrapGrowl("HTML generated with success!", { type: 'success', width: 350 });
     $('#frameHTML').contents().find('#template-text p').css('margin-top', '-18px');
   });
 
