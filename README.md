@@ -1,5 +1,4 @@
-# E-mail Template Generator
-
+# E-mail Template Generator [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 Simple and useful web app to generate e-mails for any reason you want!
 
 ## 🔥 Motivation
@@ -14,13 +13,6 @@ Through a study case at Equals, I've built this tool to help the entire company 
 <p float="left">
   <img width="100%" src="https://github.com/stefanobg/email-template-generator/blob/a4e924c446d5610dd980bb9ac3e548c38dea9585/assets/Image.png?raw=true">
 </p>
-
-
-## 🛠 Tech/framework used
-<b>Built with</b>
-- [JavaScript](https://www.javascript.com/)
-- [Quill JS](https://quilljs.com/)
-- [Material Design Icons](http://materialdesignicons.com/)
 
 
 ## 📋 Features
@@ -46,6 +38,13 @@ Once you have it installed, you can:
 - Add new images to header and title _(600px width recommended)_ on `assets/states.json`.
 - Change the HTML template by modifying `template/default.html` _(be careful with the IDs)_.
 - Use new features on the `Quill text` editor by modifying `script.js` on `toolbarOptions`.
+
+
+## 🛠 Tech/framework used
+<b>Built with</b>
+- [JavaScript](https://www.javascript.com/)
+- [Quill JS](https://quilljs.com/)
+- [Material Design Icons](http://materialdesignicons.com/)
 
 
 ## 💬 Contributor
