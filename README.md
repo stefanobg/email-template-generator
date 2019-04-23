@@ -2,7 +2,7 @@
 
 Simple and useful web app to generate e-mails for any reason you want!
 
-## 💡 Motivation
+## 🔥 Motivation
 Through a study case at Equals, I've built this tool to help the entire company to produce a good copy with brand guidelines in a simple way. You can check the product case on medium: [click here](https://stefanobg.com).
 
 
@@ -48,7 +48,7 @@ Once you have it installed, you can:
 - Use new features on the `Quill text` editor by modifying `script.js` on `toolbarOptions`.
 
 
-## ⛽️ Built and maintained
+## 💬 Contributor
 - [Stéfano Girardelli](https://stefanobg.com/)
 
 
