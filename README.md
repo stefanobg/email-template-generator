@@ -48,6 +48,5 @@ Once you have it installed, you can:
 
 
 ## 💬 Contributor
-- [Stéfano Girardelli](https://stefanobg.com/)
-
+This app was created and is being maintained by [**Stéfano Girardelli**](https://stefanobg.com) to provides a centralized solution to create HTML E-mail templates at [Equals](https://www.equals.com.br/).
 
