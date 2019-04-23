@@ -3,7 +3,7 @@ Simple and useful web app to generate e-mails for any reason you want!
 <br/><br/>
 
 ## 🔥 Motivation
-Through a study case at Equals, I've built this tool to help the entire company to produce a good copy with brand guidelines in a simple way. You can check the product case on medium: [click here](https://stefanobg.com).
+Through a study case at Equals, I've built this tool to help the entire company to produce a good copy with brand guidelines in a simple way. You can check the product case on medium: [still not alive](https://stefanobg.com).
 <br/><br/>
  
 ## 🖥 Screenshot
@@ -45,5 +45,5 @@ Once you have it installed, you can:
 <br/><br/>
 
 ## 💬 Contributor
-This app was created and is being maintained by [**Stéfano Girardelli**](https://stefanobg.com) to provides a centralized solution to create HTML E-mail templates at [Equals](https://www.equals.com.br/).
+This app was created and is being maintained by [**Stéfano Girardelli**](https://stefanobg.com).
 
