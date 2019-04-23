@@ -1,12 +1,8 @@
-# E-mail Template Generator [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+# E-mail Template Generator [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![js-standard-style](https://img.shields.io/badge/code%20style-javascript-brightgreen.svg?style=flat)](https://github.com/airbnb/javascript)
 Simple and useful web app to generate e-mails for any reason you want!
 
 ## 🔥 Motivation
 Through a study case at Equals, I've built this tool to help the entire company to produce a good copy with brand guidelines in a simple way. You can check the product case on medium: [click here](https://stefanobg.com).
-
-
-## 🗨 Code Style
-[![js-standard-style](https://img.shields.io/badge/code%20style-javascript-brightgreen.svg?style=flat)](https://github.com/airbnb/javascript)
 
  
 ## 🖥 Screenshot
