@@ -22,8 +22,8 @@ Through a study case at Equals, I've built this tool to help the entire company 
 - Define regards
 <br/><br/>
 
-## 🚀 Using it
-First you must have and apache, I recomend [MAMP](https://www.mamp.info/en/). Then, open your terminal on `www` folder and type:
+## 🚀 How to use it?
+First you must have an apache, I recomend [MAMP](https://www.mamp.info/en/). Then, open your terminal on `www` folder and type:
 ```git
 $ git clone https://github.com/stefanobg/email-template-generator
 ```
