@@ -8,7 +8,7 @@ Through a study case at Equals, I've built this tool to help the entire company 
  
 ## 🖥 Example
 <p float="left">
-  <img width="100%" src="https://github.com/stefanobg/email-template-generator/blob/master/assets/example.gif?raw=true">
+  <img width="100%" src="https://github.com/stefanobg/email-template-generator/blob/8a81f058b350540a3b96a0b66c5b94808a3077f1/assets/example.gif?raw=true">
 </p>
 <br/><br/>
 
