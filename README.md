@@ -6,9 +6,9 @@ Simple and useful web app to generate e-mails for any reason you want!
 Through a study case at Equals, I've built this tool to help the entire company to produce a good copy with brand guidelines in a simple way. You can check the product case on medium: [still not alive](https://stefanobg.com).
 <br/><br/>
  
-## 🖥 Screenshot
+## 🖥 Example
 <p float="left">
-  <img width="100%" src="https://github.com/stefanobg/email-template-generator/blob/a4e924c446d5610dd980bb9ac3e548c38dea9585/assets/Image.png?raw=true">
+  <img width="100%" src="https://github.com/stefanobg/email-template-generator/blob/master/assets/example.gif?raw=true">
 </p>
 <br/><br/>
 
