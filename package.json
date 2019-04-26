@@ -1,0 +1,27 @@
+{
+  "name": "email-template-generator",
+  "version": "1.0.0",
+  "description": "Simple and useful web app to generate e-mails for any reason you want!",
+  "main": "index.html",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanobg/email-template-generator.git"
+  },
+  "keywords": [
+    "email"
+  ],
+  "author": "Stéfano Girardelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanobg/email-template-generator/issues"
+  },
+  "homepage": "https://github.com/stefanobg/email-template-generator#readme",
+  "dependencies": {
+    "connect": "^3.6.6",
+    "openurl": "^1.1.1",
+    "serve-static": "^1.13.2"
+  }
+}

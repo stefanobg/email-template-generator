@@ -23,11 +23,18 @@ Through a study case at Equals, I've built this tool to help the entire company 
 <br/><br/>
 
 ## 🚀 How to use it?
-First you must have an apache, I recomend [MAMP](https://www.mamp.info/en/). Then, open your terminal on `www` folder and type:
+First, clone the repo anywhere you want:
 ```git
 $ git clone https://github.com/stefanobg/email-template-generator
 ```
-Now, you just need to open your browser on the `URL:port` you configured.
+
+Second, `cd email-template-generator` and type:
+```git
+$ npm install
+$ npm start 
+```
+
+Once you do that, your browser will redirect you to `127.0.0.1:8080`. Enjoy! 😉
 <br/><br/>
 
 ## 🎨 Customizing
