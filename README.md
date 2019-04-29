@@ -3,7 +3,7 @@ Simple and useful web app to generate e-mails for any reason you want!
 <br/><br/>
 
 ## 🔥 Motivation
-Through a study case at Equals, I've built this tool to help the entire company to produce a good copy with brand guidelines in a simple way. You can check the product case on medium: [still not alive](https://stefanobg.com).
+Through a study case at Equals, I've built this tool to help the entire company to produce a good copy with brand guidelines in a simple way. You can check the product case on medium: [here](https://medium.com/equals-lab/product-case-padronizando-e-mails-corporativos-de-forma-elegante-ee4568d18a53).
 <br/><br/>
  
 ## 🖥 Example
